@@ -30,29 +30,59 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ),
-      body: Container(
-        child: SingleChildScrollView(
-          child: Center(
-            child: Wrap(
-              children: <Widget>[
-                foodCard(
-                    "Chicken Burger", "burger.png", "Spicy with Garlic", "15"),
-                foodCard(
-                    "Beef Burger", "beefBurger.png", "Sweet & Spicy", "17"),
-                foodCard(
-                    "Crispy Drumsticks", "drumstick.png", "BBQ & Hot", "12"),
-                foodCard(
-                    "French Fries", "frenchFries.png", "Sweet & Sour", "10"),
-                foodCard("Egg Muffins", "eggMuffin.png",
-                    "Excellent source of protein", "11"),
-                foodCard("Bacon & Egg", "baconEgg.png", "Sandwich", "6"),
-                foodCard(
-                    "Chicken Burger", "burger.png", "Spicy with Garlic", "15"),
-                foodCard(
-                    "Beef Burger", "beefBurger.png", "Spicy with Garlic", "15"),
-              ],
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Container(
+              padding: EdgeInsets.only(left: 20, bottom: 5),
+              child: Text(
+                "FoodApp",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ),
-          ),
+            Container(
+              padding: EdgeInsets.only(
+                left: 20,
+                bottom: 20,
+              ),
+              child: Text(
+                "Eat, Love & Smile",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 15,
+                  fontWeight: FontWeight.w300,
+                ),
+              ),
+            ),
+            Container(
+              child: Center(
+                child: Wrap(
+                  children: <Widget>[
+                    foodCard("Chicken Burger", "burger.png",
+                        "Spicy with Garlic", "15"),
+                    foodCard(
+                        "Beef Burger", "beefBurger.png", "Sweet & Spicy", "17"),
+                    foodCard("Crispy Drumsticks", "drumstick.png", "BBQ & Hot",
+                        "12"),
+                    foodCard("French Fries", "frenchFries.png", "Sweet & Sour",
+                        "10"),
+                    foodCard("Egg Muffins", "eggMuffin.png",
+                        "Excellent source of protein", "11"),
+                    foodCard("Bacon & Egg", "baconEgg.png", "Sandwich", "6"),
+                    foodCard("Chicken Burger", "burger.png",
+                        "Spicy with Garlic", "15"),
+                    foodCard("Beef Burger", "beefBurger.png",
+                        "Spicy with Garlic", "15"),
+                  ],
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
