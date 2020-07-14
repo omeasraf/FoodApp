@@ -20,6 +20,7 @@ class _MainAppState extends State<MainApp> {
       theme: ThemeData(
         primaryColor: Colors.greenAccent,
         cursorColor: Colors.greenAccent,
+        accentColor: Colors.greenAccent,
         canvasColor: Color(0xff060504),
         backgroundColor: Color(0xff060504),
         appBarTheme: AppBarTheme(
