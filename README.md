@@ -12,7 +12,7 @@ This is just a Ui, and doesn't actually communicate with any api.
   - The design of app is based on ["Food Delivery"](https://dribbble.com/shots/13372610-Food-Delivery-Mobile-App) by [Ghulam Rasool](https://dribbble.com/ghulaam-rasool)
 
 
-![ScreenShot](https://raw.githubusercontent.com/omeasraf/FoodApp/master/Screenshots/Screenshot1.png)
+![ScreenShot](https://raw.githubusercontent.com/omeasraf/FoodApp/master/Screenshots/Screenshot2.png)
 
 
 ### Installation
